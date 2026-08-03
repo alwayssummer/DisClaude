@@ -1,0 +1,8 @@
+{
+  "botToken": "PASTE_YOUR_DISCORD_BOT_TOKEN_HERE",
+  "userId": "595603276787875840",
+  "machineName": "my-dev-box",
+  "throttleSeconds": 0,
+  "ignoreNotificationPatterns": ["waiting for your input"],
+  "dmChannelId": null
+}
