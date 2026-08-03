@@ -1,0 +1,10 @@
+# Never commit real secrets. The live config (with the bot token) is written
+# to ~/.claude/hooks/discord-notify.config.json, outside this repo — but guard
+# against anyone dropping a real config next to the script.
+*.config.json
+!config.example.json
+discord-notify.state.json
+
+# Claude Code session transcripts dropped into the project dir. These can
+# contain secrets pasted during a session (e.g. the bot token) — never commit.
+claudialogs/
